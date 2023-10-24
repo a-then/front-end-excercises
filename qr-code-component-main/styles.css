@@ -1,0 +1,49 @@
+:root {
+    
+--white: hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--grayish-blue: hsl(220, 15%, 55%);
+--dark-blue: hsl(218, 44%, 22%);
+
+}
+
+body {
+    background: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+    margin: 5% auto;
+    justify-content: center;
+    font-size: 15px;
+}
+.cardHolder {
+    display: block;
+    background: var(--white);
+    border: 1px solid --white;
+    box-shadow: 0 0 10px hsla(219, 15%, 55%, 0.20);
+    width: 345px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+}
+img {
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 5px 0;
+    flex: 1;
+    width: 340px;
+    object-fit: contain;
+
+}
+h1, p {
+    width: 300px;
+    margin: 20px auto;
+    /* text-align: center; */
+}
+h1 {
+   font-weight: 700; 
+   color: var(--dark-blue);
+}
+p {
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
